@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dont"
+version = "0.1.0"
+description = "Context manager base class that allows customizing execution of the contents"
+authors = ["L3viathan <git@l3vi.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
