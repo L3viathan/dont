@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dont"
-version = "0.1.0"
+version = "0.2.0"
 description = "Context manager base class that allows customizing execution of the contents"
 authors = ["L3viathan <git@l3vi.de>"]
 
