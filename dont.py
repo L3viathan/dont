@@ -11,7 +11,7 @@ def indent(line):
 class dont:
     def __enter__(self):
         self.frame = sys._getframe().f_back
-        lines = inspect.getsource(self.frame).split("\n")
+        lines = "".join(inspect.findsource(self.frame)[0]).split("\n")
         start = self.frame.f_lineno
         start_indent = indent(lines[start])
         stop = next(
